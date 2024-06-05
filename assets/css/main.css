@@ -1222,7 +1222,7 @@ input[type="radio"] + label:before {
   .image.left, .image.right {
     max-width: 40%; }
     .image.left img, .image.right img {
-      width: 100%; }
+      width: 40%; }
   .image.left {
     float: left;
     padding: 0 1.5em 1em 0;
@@ -1785,8 +1785,8 @@ button,
       .posts article:nth-last-child(1):after, .posts article:nth-last-child(2):after, .posts article:nth-last-child(3):after {
         display: none; } }
   @media screen and (max-width: 1680px) {
-    .posts article {
-      width: calc(50% - 6em); }
+    .posts article { /* THIS CONTROLS THE POSTS AT THE MAIN PAGE */
+      width: calc(33% - 6em); }
       .posts article:nth-last-child(3) {
         margin-bottom: 6em; } }
   @media screen and (min-width: 481px) and (max-width: 1680px) {
