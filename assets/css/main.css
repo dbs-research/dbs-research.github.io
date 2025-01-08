@@ -988,7 +988,7 @@ hr {
 
 /* Section/Article */
 section.special, article.special {
-  text-align: center; }
+  text-align: center;}
 
 header p {
   font-family: "Roboto Slab", serif;
@@ -1766,7 +1766,7 @@ button,
       position: absolute;
       right: 0;
       width: 0px;
-      /* width: calc(100% + 6em); disable borders around posts */
+      /* width: calc(100% + 6em); */
       }
     .posts article > :last-child {
       margin-bottom: 0; }
